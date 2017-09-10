@@ -30,7 +30,7 @@ class MiddlewareServiceProvider extends MiddlewareProvider
 
         ],
         'api' => [
-
+            \Barryvdh\Cors\HandleCors::class,
         ],
     ];
 
@@ -38,6 +38,7 @@ class MiddlewareServiceProvider extends MiddlewareProvider
         // Laravel default route middleware's:
         'can'      => \Illuminate\Auth\Middleware\Authorize::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        'cors' => \Barryvdh\Cors\HandleCors::class,
     ];
 
 }

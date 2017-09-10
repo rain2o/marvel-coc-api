@@ -14,13 +14,14 @@
  * HTTP/1.1 200 OK
 {
     "name": "Unstoppable Colossus",
-    "class": "Mutant",
+    "class": "Mystic",
 }
  */
 
 $router->get('champions', [
     'uses'  => 'Controller@GetAllChampions',
     'middleware' => [
-      'auth:api',
+        'auth:api',
+        'cors'
     ],
 ]);

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc2e1dee6be7592a031f541457a70c6f",
+    "content-hash": "6fa3f159c0ad8d47078353687fffb4be",
     "packages": [
         {
             "name": "barryvdh/laravel-cors",
